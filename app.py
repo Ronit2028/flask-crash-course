@@ -21,6 +21,9 @@ def home():
 #         If 'name' is present, return JSON { "message": "Hello, <name>!" }
 #         If 'name' is missing, default to "Hello, Guest!"
 
+
+#this is an additional comment
+
 @app.route('/api/greet')
 def greetUser():
     name = request.args.get("name")
